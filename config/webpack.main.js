@@ -27,7 +27,7 @@ module.exports = mode => {
       path: dist,
     },
     resolve: {
-      extensions: ["ts", ".js", ".json"],
+      extensions: [".ts", ".js", ".json"],
     },
     module: {
       rules: [
